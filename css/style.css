@@ -1,0 +1,88 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 14px
+	 Font Family = "Times New Roman", serif
+	 Font Color = black
+	 Background: #F3EBE9
+
+H1 Font Size = 50px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   color: #FFFFFF;	(White)
+
+H2: Font Size = 18px
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+
+*/
+body {
+	background-image: url(../images/pattern1.png);
+	font-size: 14px;
+	font-family: "Times New Roman"
+	color: black;
+
+}
+#container {
+	width: 720px;
+	background-color: black;
+  	margin: 0 auto 0 auto; 
+  	/* this centers the things, so that it takes the
+  	difference between the sides of the page */
+}
+
+.header {
+	background-color: rgb(233, 96, 92);
+	color: white;
+	padding: 15px 10px 20px 10px;
+	/* top, right, bottom, left - like a clock */
+
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+
+}
+
+p {
+	margin: 10px 0 10px 0;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.orchid{
+	width: 720px;
+}
+.copy{
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+.footer {
+	height: 50px;
+	background-color: rgb(233, 96, 92);
+	color: white;
+	text-align: right;
+	padding: 10px;
+
+}
+
+.photos {
+	width: 160px;
+	border: 3px solid #C5C5C5;
+	margin-top: 5px;
+
+
+}
+
